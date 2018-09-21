@@ -5,7 +5,7 @@ let connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
+  password: process.env.DB_PASSWORD,
   database: "cupcake_db"
 });
 
