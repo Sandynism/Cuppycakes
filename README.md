@@ -1,9 +1,9 @@
-# Cuppy-Cake
+# Cuppycakes
 
-Cuppy-Cake is a cupcake logger web application that uses MySQL, Node, Express, Handlebars, and a homemade ORM. It follows the MVC design pattern, uses Node and MySQL to query and route data in the app, and uses Handlebars to generate the HTML.
+Cuppycakes is a cupcake logger web application that uses MySQL, Node, Express, Handlebars, and a homemade ORM. It follows the MVC design pattern, uses Node and MySQL to query and route data in the app, and uses Handlebars to generate the HTML.
 
 ## Getting Started
-[Click here to get eating](https://infinite-taiga-32865.herokuapp.com/)
+[Click here to get eating](https://gentle-lowlands-58153.herokuapp.com/)
 
 ## Preview
 
