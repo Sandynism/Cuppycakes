@@ -12,7 +12,7 @@ router.get("/", function(req, res) {
 })
 
 // Adds a new cupcake.
-router.post("/", function(req, res) {
+router.post("/cupcake", function(req, res) {
 	console.log(req.body)
 	cupcake.insertOne(req.body.name, function() {
 		res.redirect("/")
