@@ -1,0 +1,38 @@
+<div class="row">
+
+    <div class="col-md-4 col-sm-12 col-xs-12">
+    	<h3 class="heading">DEVOUR ME, B*TCHES</h3>
+        {{#each cupcakes}} 
+        	{{#unless this.devoured}} 
+            <div class="cupcakes">
+                {{this.name}}
+                <button type="submit" class="eat" data-id="{{this.id}}"><i class="material-icons">restaurant</i></button>
+            </div>
+        	{{/unless}} 
+        {{/each}}
+    </div>
+
+    <div class="col-md-4 col-sm-12 col-xs-12">
+        <h3 class="heading">CUPCAKE WISHLIST</h3>
+        <form class="add-cupcake-form" action="/" method="POST">
+            <div class="form-group">
+                <input type="text" id="newCupcake" name="name" placeholder="Add A Cupcake">
+                <button type="submit" class="submit"><i class="material-icons">cake</i></button>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-4 col-sm-12 col-xs-12">
+    	<h3 class="heading">DEVOURED</h3>
+        <div class="list-group">
+            {{#each cupcakes}} 
+            	{{#if this.devoured}}
+                        <div class="cupcakes eaten">
+                            {{this.name}}
+                            <button type="submit" class="trash" data-id={{this.id}}><i class="material-icons">delete</i></button>
+                        </div>
+            	{{/if}} 
+            {{/each}}
+        </div>
+    </div>
+</div>
