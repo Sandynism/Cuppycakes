@@ -2,9 +2,6 @@
 
 Cuppycakes is a cupcake logger web application that uses MySQL, Node, Express, Handlebars, and a homemade ORM. It follows the MVC design pattern, uses Node and MySQL to query and route data in the app, and uses Handlebars to generate the HTML.
 
-## Getting Started
-[Click here to get eating](https://peaceful-woodland-61658.herokuapp.com/)
-
 ## Preview
 
 ![](public/assets/images/cupcakeSS.png)
